@@ -34,7 +34,7 @@
 </div>
   
   <div class="column" style="background-color:#bbb;"> <h2>Hobbies<h2>
-	<img src="/images/russia.jpg">
+	<img src="{{ url_for('static', filename='russia.jpg' ) }}">
 	<ul style="list-style: square;">
 		<li>Playing Tennis</li>
 		<li>Dance salsa, Bachata and reggaeton</li>
@@ -45,7 +45,7 @@
 	</div>
 
   <div class="column" style="background-color:#ccc;"> <h1>Likes</h1>
-  	
+  <img src="{{ url_for('static', filename='cooking.png' ) }}">	
   	<h3>Series</h3>
   		<ul style="list-style: square;">
 			<li>Vikings</li>
